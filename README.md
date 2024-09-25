@@ -1,2 +1,11 @@
-# k6-load-testing
-Load testing with k6 
+# k6 Load Testing
+
+## Tests
+
+### Smoke test
+
+start smoke test
+
+```
+    k6 run smoke-test.js --out json=test_results.json
+```
