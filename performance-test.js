@@ -7,7 +7,7 @@ export const options = {
   vus: 1,
   duration: '10s',
   thresholds: {
-    list_cats_limit_10: ['p(95)<100', 'max<2000'],
+    list_cats_limit_10: ['p(95)<100', 'max<200'],
     checks: ['rate<0.01']
   }
 };
